@@ -1,0 +1,53 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38.62px;
+}
+ul {
+    display: flex;
+    gap: 40px;
+}
+ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    cursor: pointer;
+    color: #4F5665;
+}
+ul li:hover {
+    color:rgb(128, 98, 0);
+    transition: all ease 1s;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.login h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #0B132A;
+    cursor: pointer;
+}
+.login h3:hover {
+    color: #0d36b3;
+    transition: color ease 1s;
+}
+.user {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    cursor: pointer;
+}
+.user h2 {
+    text-align: center;
+    padding-top: 9px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #F53855;
+}

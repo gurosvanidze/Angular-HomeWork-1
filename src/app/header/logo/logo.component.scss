@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 149px;
+  height: 36.23px;
+  cursor: pointer;
+}
+.logo h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #0b132a;
+}
+.logo span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #0b132a;
+}

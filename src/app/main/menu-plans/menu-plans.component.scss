@@ -1,0 +1,134 @@
+.choose-package {
+  display: flex;
+  flex-direction: column;
+  margin-top: 207px;
+  align-items: center;
+  gap: 20px;
+}
+.choose-package h1 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #0b132a;
+}
+.choose-package p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
+  width: 505px;
+  height: 60px;
+  text-align: center;
+}
+.package-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+  border: 2px solid #dddddd;
+  transition: border ease 1s;
+}
+.package:hover {
+  border: 2px solid #f53838;
+}
+.package-img {
+  margin-top: 79px;
+}
+.package h1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #0b132a;
+  margin-top: 30px;
+}
+.package-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.package-list-all {
+  width: 190.26px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.package h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #0b132a;
+  margin-top: 130px;
+}
+.select {
+  width: 177.88px;
+  height: 45px;
+  border-radius: 50px;
+  border: 2px solid #f53838;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 1s;
+  margin-top: 20px;
+}
+.select p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #f53838;
+  transition: all ease 1s;
+}
+.select:hover {
+  cursor: pointer;
+  background-color: #f53838;
+}
+.select:hover p {
+  color: #ffffff;
+}
+.global-all {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.global {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.global h1 {
+  width: 353.41px;
+  height: 100px;
+  text-align: center;
+  color: #0b132a;
+  font-size: 35px;
+  font-weight: 550;
+  line-height: 50px;
+}
+.global p {
+  width: 505px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+}
+.huge-global {
+  margin-top: 155px;
+}
